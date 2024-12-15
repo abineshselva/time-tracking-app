@@ -1,38 +1,117 @@
-## time-tracking-app
+# Time Tracking App
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Overview
+This is a simple time-tracking web application built using Next.js, React, and Tailwind CSS. It allows users to log daily tasks with fields for task ID, project, status, description, date, time spent, and developer. The application includes features for saving and managing tasks.
 
-## Getting Started
+---
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Daily Task Entry**: Input fields to log task details such as task ID, project, status, description, date, time spent, and developer.
+- **Date Picker**: Seamlessly select dates using a React Date Picker.
+- **Dynamic Validation**: Ensures required fields are filled before submission.
+- **Responsive Design**: Built with Tailwind CSS for mobile-first, responsive UI.
+- **Data Persistence**: Saves task details via API to the server.
+
+---
+
+## Tech Stack
+
+- **Frontend**:
+  - [Next.js](https://nextjs.org/)
+  - [React](https://reactjs.org/)
+  - [Tailwind CSS](https://tailwindcss.com/)
+- **Backend**:
+  - Node.js
+  - API for saving tasks
+- **Utilities**:
+  - [React Date Picker](https://reactdatepicker.com/)
+  - [Heroicons](https://heroicons.com/)
+
+---
+
+## Installation and Setup
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Steps
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-repo-url.git
+   cd time-tracking-app
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Set Up Environment Variables**
+   Create a `.env` file in the root directory and add the following:
+   ```env
+   DATABASE_URL=your_database_connection_string
+   ```
+
+4. **Run the Development Server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+
+---
+
+## Project Structure
+
+```
+.
+├── public
+│   ├── images
+│   └── favicon.ico
+├── src
+│   ├── components
+│   │   └── Sidebar.js
+│   ├── pages
+│   │   ├── api
+│   │   │   └── saveTask.js
+│   │   └── index.js
+│   └── styles
+│       └── globals.css
+├── .env
+├── next.config.js
+├── package.json
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Open the app in your browser.
+2. Fill out the task details form.
+3. Click **Save Task** to save the details.
+4. A confirmation message will appear if the task is saved successfully.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Screenshots
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Acknowledgments
+
+- [Unsplash](https://unsplash.com/) for placeholder images.
+- [Heroicons](https://heroicons.com/) for free icons.
+
