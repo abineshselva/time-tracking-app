@@ -1,0 +1,119 @@
+[
+  {
+    "taskId": "1",
+    "project": "website redesign",
+    "status": "done",
+    "description": "Complete homepage layout",
+    "date": "2024-07-10",
+    "timeSpent": "02:00",
+    "developer": "samantha"
+  },
+  {
+    "taskId": "2",
+    "project": "website redesign",
+    "status": "in-progress",
+    "description": "Add footer section",
+    "date": "2024-07-09",
+    "timeSpent": "01:30",
+    "developer": "alex"
+  },
+  {
+    "taskId": "3",
+    "project": "SEO optimization",
+    "status": "done",
+    "description": "Update meta tags",
+    "date": "2024-07-08",
+    "timeSpent": "01:15",
+    "developer": "morgan"
+  },
+  {
+    "taskId": "4",
+    "project": "content creation",
+    "status": "done",
+    "description": "Write blog post on marketing trends",
+    "date": "2024-07-07",
+    "timeSpent": "03:00",
+    "developer": "jordan"
+  },
+  {
+    "taskId": "5",
+    "project": "content creation",
+    "status": "in-progress",
+    "description": "Create social media graphics",
+    "date": "2024-07-06",
+    "timeSpent": "02:00",
+    "developer": "blake"
+  },
+  {
+    "taskId": "6",
+    "project": "website redesign",
+    "status": "pending",
+    "description": "Implement contact form",
+    "date": "2024-07-05",
+    "timeSpent": "01:45",
+    "developer": "taylor"
+  },
+  {
+    "taskId": "7",
+    "project": "SEO optimization",
+    "status": "done",
+    "description": "Conduct keyword research",
+    "date": "2024-07-04",
+    "timeSpent": "02:30",
+    "developer": "riley"
+  },
+  {
+    "taskId": "8",
+    "project": "website redesign",
+    "status": "done",
+    "description": "Test responsive design",
+    "date": "2024-07-03",
+    "timeSpent": "01:20",
+    "developer": "casey"
+  },
+  {
+    "taskId": "9",
+    "project": "content creation",
+    "status": "in-progress",
+    "description": "Draft new content calendar",
+    "date": "2024-07-02",
+    "timeSpent": "02:10",
+    "developer": "jaime"
+  },
+  {
+    "taskId": "10",
+    "project": "SEO optimization",
+    "status": "pending",
+    "description": "Review backlink strategy",
+    "date": "2024-07-01",
+    "timeSpent": "01:50",
+    "developer": "avery"
+  },
+  {
+    "taskId": "12",
+    "project": "project 54",
+    "status": "Done Now",
+    "description": "New test now",
+    "date": "2024-07-28",
+    "timeSpent": "00:45",
+    "developer": "ch"
+  },
+  {
+    "taskId": "12",
+    "project": "project 12",
+    "status": "Done Now",
+    "description": "New test now",
+    "date": "2024-07-29",
+    "timeSpent": "00:30",
+    "developer": "abinesh"
+  },
+  {
+    "taskId": "1",
+    "project": "test",
+    "status": "done",
+    "description": "testing",
+    "date": "2024-12-14",
+    "timeSpent": "01:00",
+    "developer": "abinesh"
+  }
+]
